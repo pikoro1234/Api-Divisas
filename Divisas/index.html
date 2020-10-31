@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<!-- Informació Meta -->
+	<meta charset="utf-8"/>
+	<meta name="description" content="Pequeño Proyecto">
+	<meta name="keywords" content="Lorem, Ipsum">
+	<meta name="author" content="Jorge Fiorilo Cardenas">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Enllaç a JQUERY -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <!-- Enllaç a CSS Extern -->
+  <link rel=stylesheet href="css/convertir.css" type="text/css"/>
+	<!--CSS Intern-->
+	<style type="text/css">
+
+	</style>
+
+	<!-- favicon -->
+	<link href="img/favicon.ico" rel="icon" type="image/x-icon" />
+
+	<!-- Títol de la pàgina -->
+	<title></title>
+</head>
+<body>
+<div class="contenedor-general">
+	<div class="header-banderas">
+		<!--<ul class="banderas">
+			<li>
+				<img class="image" src="img/banderas-del-mundo1.jpg">
+			</li>
+			<li>
+				<img class="image1" src="img/banderas-del-mundo2.jpg">
+			</li>
+			<li>
+				<img class="image" src="img/banderas-del-mundo1.jpg">
+			</li>
+			<li>
+				<img class="image1" src="img/banderas-del-mundo2.jpg">
+			</li>
+			<li>
+				<img class="image" src="img/banderas-del-mundo1.jpg">
+			</li>
+		</ul>-->
+	</div>
+
+		<div class="contenido">
+			<h1>Divisa Converter</h1>
+			<div class="content-top">
+				<img id="image1" src="icons/USD.png" src="convertir()">
+				<input type="text" id="entrada" oninput="convertir();">
+					<select id="divisas1" onchange="convertir();">
+						<option value="USD">USD</option>
+						<option value="JPY">Jap</option>
+						<option value="GBP">Lib</option>
+						<option value="CNY">Chin</option>
+						<option value="BRL">Bra</option>
+						<option value="EUR">Eur</option>
+						<option value="MXN">Mxn</option>
+					</select>
+			</div>
+
+			<div class="content-botton">
+				<img id="image2" src="icons/USD.png" src="convertir()">
+				<input type="text" id="salida" oninput="convertir();">
+				<select id="divisas2" onchange="convertir();">
+					<option value="USD">USD</option>
+					<option value="JPY">Jap</option>
+					<option value="GBP">Lib</option>
+					<option value="CNY">Chin</option>
+					<option value="BRL">Bra</option>
+					<option value="EUR">Eur</option>
+					<option value="MXN">Mxn</option>
+				</select>
+			</div>
+			<div class="button-cambio">
+				<button onclick="cambio()">⇧⇩</button>
+			</div>
+		</div>
+
+		<h2>Firmado por: Jorge Fiorilo Cardenas</h2>
+
+		<div class="footer">
+			<footer>
+				<div class="footer-link-left">
+				<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licencia de Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png"/>
+				</a></div>
+				<div class="footer-link-rigth"><br/>Este obra está echa por Empresas FliphyBit's Company S.R.N.E <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">licencia de Creative Commons Reconocimiento 4.0 Internacional.</a>
+				</div>
+			</footer>
+		</div>
+</div>
+</body>
+</html>
+
+<!-- Enllaç a Javascript Extern
+Posem l'enllaç al final ja que si no falla pq carrega abans el javascript que el document html. -->
+<script  type="text/javascript" src="js/convertir.js"></script>

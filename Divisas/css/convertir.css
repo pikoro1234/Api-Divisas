@@ -1,0 +1,103 @@
+/*vista normal*/
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	max-width: 1024px;
+	margin: 0 auto;
+}
+.contenedor-general{
+	width: 70%;
+	background-image:url(../img/image-fondo.jpeg);
+}
+.header-banderas .banderas{
+	display:flex;
+	list-style: none;
+}
+.banderas li img{
+	width: 100px;
+}
+.contenido{
+	display:flex;
+	flex-wrap: wrap;
+}
+.contenido h1, .contenido .content-top, .contenido .content-botton,
+.contenido .button-cambio{
+	padding-bottom: 1em;
+	width: 100%;
+	text-align: center;
+}
+h2, .footer{
+	padding-left: 0.5em;
+}
+
+/*Media Queries*/
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Landscape phones and portrait tablets */
+@media screen and (max-width: 767px) {
+	.content-general{
+		background-color: blue;
+	}		
+}
+
+/* Portrait phones and smaller */
+@media screen and (max-width: 480px){
+}
+	/*cabecera banderas*/
+	
+	/*cabecera banderas*/
+
+
+	/*imagenes banderas*/
+	
+	/*imagenes banderas*/
+
+
+	/*titulo encabesado*/ 
+
+	/*titulo encabesado*/
+
+
+	/*tamaño para imagen icono*/
+	
+	/*tamaño para imagen icono*/
+
+
+	/*input de datos*/
+
+	/*input de datos*/
+
+
+	/*bloque input salida*/
+
+	/*bloque input salida*/
+
+
+	/*select primer bloque */
+
+	/*select primer bloque */
+
+
+	/*select segundo bloque*/
+
+	/*select segundo bloque*/
+
+	/*boton conversion*/
+	
+	/*boton conversion*/	
+	
+	/*todo sobre el footer*/
